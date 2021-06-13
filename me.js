@@ -22,6 +22,78 @@
   
   /* Step 5: enter any custom scripts you'd like */
   const CUSTOM_SCRIPT = ``;
+
+
+  const CUSTOM_CSS = `/* General */
+  div.notion-topbar > div > div:nth-child(1n).toggle-mode {
+    display: none !important;	
+  }
+  div.notion-topbar-mobile > div:nth-child(1n).toggle-mode {
+    display: none !important;	
+  }
+  div.notion-topbar-mobile > div:nth-child(5) {
+    display: none !important;	
+  }
+  .notion-frame {
+    background-image: linear-gradient(180deg, #fdfbfb 0%, #ebedee 100%) !important;
+    /* background: linear-gradient(45deg,#ee7752,#e73c7e,#0a769c,#14daab) !important;
+    background-size: 130% 100% !important;
+    animation: gradient 8s ease infinite; */
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50% !important;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .notion-page-content {
+      padding-bottom: 2.5rem !important;
+      padding-top: 2.5rem !important;
+      background: #fff;
+      border-radius: 1rem;
+      margin: -2.75rem 0 10vh 0;
+  }
+  .notion-page-block {
+      position: relative;
+  }
+  .notion-scroller > [style="width: 100%; font-size: 14px;"] {
+      margin-bottom: 1.5rem;
+  }
+  .notion-image-block {
+      pointer-events: none !important;
+  }
+  .notion-image-block img {
+      pointer-events: none !important;
+  }
+  .notion-callout-block > div > div {
+      border-radius: 0.5rem !important;   
+  }
+  .notion-peek-renderer {
+      background: #142025 !important;
+      transition: 0.3s;
+  }
+  .notion-peek-renderer > div:nth-child(2) {
+      border-radius: 0.5rem !important;
+      overflow: hidden;
+  }
+  .notion-gallery-view > div > div > a {
+      border-radius: 0.5rem !important;	
+  }
+  .notion-gallery-view > div > div > a:hover {
+      opacity: 0.75;	
+  }
+  .notion-scroller > div:nth-child(2) > div {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+  
+  
+  `;
   
   /* CONFIGURATION ENDS HERE */
   
