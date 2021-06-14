@@ -1,26 +1,20 @@
-const MY_DOMAIN = 'nhajela.me';
+const MY_DOMAIN = 'mahaprasad.ml';
   
 const SLUG_TO_PAGE = {
-    '': '264a8e4dacd84ece9ca44999a049f21b',
-    '19withNaman': '762ae375f0e14c7b927c45c0e3543d9c',
-    'links': '7b8623f2f6454680bddeea3baa3782bb',
-    'Notebook':'25c71e85558f449bbb878e02dd84a39c',
-    'Notebook/FruitionClips':'336576694b794d27b77b7c121bd3ce68',
-    "19withNaman/s2-Mental-Health":"65dc953431084d058d2692f9c101f869",
-    "Notebook/NotionWebPageGuide":"1bdc9f12ce7f4c71a5153e551aa4e0bc",
-    "CommunityManagement":"7311c8abea3b46829cce41df7e56197c",
-    "Atomic":"a061e4db3ffb44c8a9fd2e76ad979947",
-    "CryptoRes":"0207c9ba3c5449e1b032a1849664056f",
-    "ContactMe":"11ff5e932758410a85819bb2f88e48ca",
-  };
+  '': '2953e802795e441a9f2683362c35bb37',
+  'socials': 'fa44c425588e43278a19c7024fa3d290',
+  'portfolio': 'cfe57550e69c458b9fffab72c705dcae',
+  'resources': 'b132ff521b5648c499925c611a5d8968',
+};
+
 const ERROR_PAGE = '';
 
-const PAGE_TITLE = 'Naman Hajela';
+const PAGE_TITLE = 'Mahaprasad';
 const PAGE_DESCRIPTION = 'Exploring the world, one new thing at a time.';
 const FAVICON_URL = 'https://imgur.com/a/rrK5awN';
 const IOS_ICON_URL = 'https://imgur.com/a/rrK5awN';
 
-const OG_URL = 'nhajela.me';
+const OG_URL = 'mahaprasad.ml';
 const OG_TYPE = 'website';
 const OG_IMAGE_URL = 'https://imgur.com/a/qHipUTr';
 
