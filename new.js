@@ -4,6 +4,16 @@
 
   const SLUG_TO_PAGE = {
     '': '2953e802795e441a9f2683362c35bb37',
+  'contact': 'fa44c425588e43278a19c7024fa3d290',
+  'portfolio': 'cfe57550e69c458b9fffab72c705dcae',
+  'resources': 'b132ff521b5648c499925c611a5d8968',
+  'blog': 'ba95bf1ad9d54eb79cb9883e4c601bf0',
+  'reading-list': '8d371c00c809456fa56c7f5569a44c78',
+  'super-threads': '6b053ed3487a4167b8c97745b9defc5c',
+  'user-experience-design': '31653d9f08c54e4a942c183e308af4f6',
+  'personal-brand': 'af8360562287484e96fdf75b044f3cab',
+  'finance': 'cd86509eabbb4fa398f8666cfc5956e5',
+  'crypto': 'ee852ebffc6c484f84391df03bab012b'
   };
   
   const PAGE_TITLE = 'Mahaprasad Mohanty';
@@ -13,6 +23,7 @@
   const GOOGLE_FONT = 'Mulish';
   
   /* Step 5: enter any custom scripts you'd like */
+
   const CUSTOM_SCRIPT = `/* General */
 div.notion-topbar > div > div:nth-child(1n).toggle-mode {
 	display: none !important;	
